@@ -17,7 +17,6 @@ namespace ModuleOneAssignment
                 address2,
                 city,
                 state,
-                zip,
                 country,
                 professorName,
                 universityDegree,
@@ -25,7 +24,24 @@ namespace ModuleOneAssignment
                 degreeOffered,
                 deparmentHead,
                 prerrequisites;
-            int birthdate;
+            int birthdate,zip;
+            
+            // assign values
+            firstName = "Jonathan";
+            lastName = "Cuesto";
+            address1 = "Sunflower Street";
+            address2 = "apartment 2b";
+            city = "Santo Domingo";
+            state = "Santo Domingo Oeste";
+            zip = 1809;
+            birthdate = 1991;
+            country = "Dominican Republic";
+            professorName = "Gerry O'Brien";
+            universityDegree = "Honor Certificate";
+            programName = "Programming with C#";
+            degreeOffered = "Honor Certificate";
+            deparmentHead = "IT";
+            prerrequisites = "C# knowledge";
         }
     }
 }
