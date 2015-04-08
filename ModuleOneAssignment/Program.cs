@@ -10,6 +10,22 @@ namespace ModuleOneAssignment
     {
         static void Main(string[] args)
         {
+            // variables of the program
+            string firstName,
+                lastName,
+                address1,
+                address2,
+                city,
+                state,
+                zip,
+                country,
+                professorName,
+                universityDegree,
+                programName,
+                degreeOffered,
+                deparmentHead,
+                prerrequisites;
+            int birthdate;
         }
     }
 }
