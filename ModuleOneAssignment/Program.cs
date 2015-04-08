@@ -42,6 +42,10 @@ namespace ModuleOneAssignment
             degreeOffered = "Honor Certificate";
             deparmentHead = "IT";
             prerrequisites = "C# knowledge";
+
+            Console.WriteLine("First Name: " + firstName);
+            Console.WriteLine("Last Name: " + lastName);
+            Console.WriteLine("First Name: " + firstName);
         }
     }
 }
