@@ -48,7 +48,7 @@ namespace ModuleTwoAssignment
                 {
                     whileLoop = false;
                 }
-            }
+            } 
             Console.WriteLine();
         }
     }
