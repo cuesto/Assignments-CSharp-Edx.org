@@ -43,9 +43,26 @@ namespace ModuleOneAssignment
             deparmentHead = "IT";
             prerrequisites = "C# knowledge";
 
+            Console.WriteLine("Students Information:");
             Console.WriteLine("First Name: " + firstName);
             Console.WriteLine("Last Name: " + lastName);
-            Console.WriteLine("First Name: " + firstName);
+            Console.WriteLine("Address 1: " + address1);
+            Console.WriteLine("Address 2: " + address2);
+            Console.WriteLine("City: " + city);
+            Console.WriteLine("State: " + state);
+            Console.WriteLine("Zip: " + zip);
+            Console.WriteLine("Birthdate: " + birthdate);
+            Console.WriteLine("Country: " + country);
+            Console.WriteLine();
+            Console.WriteLine("Teachers Information:");
+            Console.WriteLine("Name: " + professorName);
+            Console.WriteLine("University Degree: " + universityDegree);
+            Console.WriteLine();
+            Console.WriteLine("University Information:");
+            Console.WriteLine("Program Name: " + programName);
+            Console.WriteLine("Degree Offered: " + degreeOffered);
+            Console.WriteLine("Department Head: " + deparmentHead);
+            Console.WriteLine("Prerrequisites: " + prerrequisites);
         }
     }
 }
